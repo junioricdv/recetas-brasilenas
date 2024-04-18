@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Inter:wght@400;700&family=Lobster&family=Montserrat:wght@200&family=Oswald:wght@200;400&family=Roboto:wght@100;300;400;500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/arkham");
+@import url("https://fonts.cdnfonts.com/css/birds-of-paradise-personal-use");
+@import url("https://fonts.cdnfonts.com/css/the-hand-2");
+@import url("https://fonts.cdnfonts.com/css/aubade");
+@import url("https://fonts.cdnfonts.com/css/lucida-handwriting-std");
+@import url("https://db.onlinewebfonts.com/c/bb25f84423b9515a1d475d02d2de6462?family=Bell+MT+Semi+Bold");
+@import url("https://fonts.cdnfonts.com/css/interstate-2");
+
+:root {
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
+  --backgroud-gradient: linear-gradient(
+    55deg,
+    #070707 35%,
+    #180101,
+    #420203,
+    #d90407,
+    #fb4f06,
+    #ff9807
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  background: var(--backgroud-gradient);
+  background-size: 200% 200%;
+  animation: color 20s ease-in-out infinite;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  /* height: 100vh; */
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.icon {
+  width: 350px;
+  padding: auto;
+  margin-left: 50px;
+}
+
+.img-box {
+  margin: 0 auto;
+}
+
+#cabecalho-menu {
+  margin: 0 auto;
+}
+
+#cabecalho-item-1 {
+  margin-left: 50px;
+}
+
+#cabecalho-item-2 {
+  margin-left: 100px;
+}
+
+#cabecalho-item-3 {
+  margin-left: 150px;
+}
+
+.cabecalho-item {
+  font-family: "The Hand", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px #000, -2px 1px 1px #000, 1px -2px 1px #000,
+    -2px -2px 1px #000;
+  font-size: 40px;
+  text-decoration: none;
+  display: block;
+}
+
+.conteudo-principal-receitas {
+  width: auto;
+  margin: 10%;
+}
+
+#conteudo-receitas {
+  display: flex;
+  margin: 10%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+#texto-receitas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 120px;
+}
+
+#imagem {
+  width: 450px;
+  height: 450px;
+  margin-left: 1px;
+  border-radius: 15px;
+}
+
+#h3-receitas {
+  width: 300px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 400;
+  color: white;
+  font-family: "Lucida Handwriting Std", sans-serif;
+  margin: 30px;
+  margin-bottom: 20px;
+  line-height: 1;
+  text-shadow: 1px 1px 1px #000, -2px 1px 1px #000, 1px -2px 1px #000,
+    -2px -2px 1px #000;
+}
+
+#paragrafo-receitas {
+  font-size: 30px;
+  padding: 70px;
+  margin: -70px;
+  font-family: "Bell MT";
+  color: white;
+  text-align: center;
+  gap: 15px;
+  line-height: 1.2;
+}
+
+.h2 {
+  display: flex;
+  font-size: 120px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: flex-end;
+  font-family: "ARKHAM", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px #000, -2px 1px 1px #000, 1px -2px 1px #000,
+    -2px -2px 1px #000;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid white;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.h1 {
+  display: flex;
+  font-size: 110px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: flex-end;
+  font-family: "ARKHAM", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px #000, -2px 1px 1px #000, 1px -2px 1px #000,
+    -2px -2px 1px #000;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px 200px;
+}
+
+.img-1 {
+  width: 800px;
+  padding: auto;
+  opacity: 0.5;
+}
+
+.img-2 {
+  width: 600px;
+  padding: auto;
+  opacity: 0.15;
+}
+
+.img-3 {
+  width: 450px;
+  padding: auto;
+  opacity: 0.5;
+}
+
+.h4 {
+  display: flex;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  font-family: "Birds of Paradise  Personal use", sans-serif;
+  padding: 100px;
+}
+
+#banner {
+  display: flex;
+  width: 1700px;
+  height: 250px;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: #000;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 15%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#texto {
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  font-family: "Lucida Handwriting Std", sans-serif;
+  color: white;
+  width: 960px;
+  margin: auto;
+}
+
+footer {
+  background-color: #12314e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.botao {
+  font-size: 100px;
+  margin: 100px;
+  text-align: center;
+  align-items: center;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  padding: 15px 25px 15px 25px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao:hover {
+  width: 500px;
+  background: red;
+  border-radius: 35px;
+  border: solid 2px white;
+  color: #ffffff;
+  box-shadow: 0 0 50px #167bf7;
+  font-family: "Aubade", sans-serif;
+}
+
+.centralizado {
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .conteudo-principal-receitas {
+    display: block;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: initial;
+  }
+
+  #conteudo-receitas {
+    display: block;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  #imagem {
+    width: 80%;
+    height: auto;
+    margin-left: 0;
+    border-radius: 5px;
+    margin: auto;
+  }
+
+  #texto-receitas {
+    display: initial;
+    flex-direction: initial;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  #h3-receitas {
+    font-size: 21px;
+    padding-bottom: 10px;
+    width: inherit;
+  }
+
+  #paragrafo-receitas {
+    font-size: 0.6em;
+    padding: inherit;
+    margin: 0;
+  }
+
+  .h1 {
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  .img-box {
+    width: 50%;
+  }
+
+  .icon {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  #cabecalho-menu {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  #cabecalho-item-1 {
+    margin-left: 15px;
+  }
+
+  #cabecalho-item-2 {
+    margin-left: 30px;
+  }
+
+  #cabecalho-item-3 {
+    margin-left: 45px;
+  }
+
+  .cabecalho-item {
+    font-family: "The Hand", sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px #000, -2px 1px 1px #000, 1px -2px 1px #000,
+      -2px -2px 1px #000;
+    font-size: 0.8em;
+    text-decoration: none;
+    display: block;
+  }
+
+  .img-1 {
+    width: 350px;
+    display: flex;
+    align-items: center;
+  }
+
+  .h4 {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .botao {
+    width: 300px;
+    font-size: 50px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+
+  .botao:hover {
+    width: 300px;
+    background: red;
+    border-radius: 35px;
+    border: solid 2px white;
+    color: #ffffff;
+    box-shadow: 0 0 50px #167bf7;
+    font-family: "Aubade", sans-serif;
+  }
+
+  .imagem {
+    width: 40%;
+  }
+
+  .paragrafo-receitas {
+    font-size: 50px;
+    font-weight: 30;
+    text-align: center;
+  }
+}
